@@ -71,12 +71,12 @@ header {
 .about-me-heading {
   font-family: Marydale-Bold, sans-serif;
   font-size: 5rem;
-  margin: 0 50px;
 }
 
 .about-me-content {
   font-family: Multilingual-Hand, sans-serif;
   font-size: 2rem;
+  margin: 0 50px;
 }
 
 .education-heading {
