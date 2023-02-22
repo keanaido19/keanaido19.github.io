@@ -28,6 +28,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Work-Sans-Bold';
+  src:url(../font/work-sans-bold/Work-Sans-Bold.ttf.woff) format('woff'),
+  url(../font/work-sans-bold/Work-Sans-Bold.ttf.svg#Work-Sans-Bold) format('svg'),
+  url(../font/work-sans-bold/Work-Sans-Bold.ttf.eot),
+  url(../font/work-sans-bold/Work-Sans-Bold.ttf.eot?#iefix) format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   background-image: url(../img/linedpaper.webp);
@@ -54,9 +64,10 @@ header {
 }
 
 .my-name {
-  line-height: 0.9;
+  line-height: 0.7;
   font-size: 3rem;
-  font-weight: 900;
+  /*font-weight: 900;*/
+  font-family: Work-Sans-Bold, sans-serif;
 }
 
 .bbd-software {
